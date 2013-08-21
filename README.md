@@ -11,6 +11,8 @@ All the next steps are pretty forward, simply compile this java source and see.
 
 Sadly JavaFX webengine is not running on a complete headless server, hopefully it is with JavaFX 8. So I hope this may help someone!
 
+I got almost everything to work, but note there are still some problems - i.e. https://github.com/mbostock/d3/issues/1471
+
 Cheers 
 KIC
 
