@@ -1,0 +1,6 @@
+get the original source files like this:
+
+git clone https://github.com/thatcher/envjs-site.git
+#note the different fork!
+wget https://raw.github.com/thatcher/env-js/master/src/dom/sizzle.js 
+wget http://d3js.org/d3.v3.min.js
