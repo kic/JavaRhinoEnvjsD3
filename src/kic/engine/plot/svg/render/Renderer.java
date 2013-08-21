@@ -23,7 +23,9 @@ public class Renderer {
     private Scriptable scope = cx.initStandardObjects();
     
     public static void main(String[] args) throws Exception {
-        new Renderer().test();
+        Renderer r = new Renderer();
+        r.test();
+        r.loadScript("js/axistest.js");
     }
     
     public Renderer() {
