@@ -13,6 +13,13 @@ Sadly JavaFX webengine is not running on a complete headless server, hopefully i
 
 I got almost everything to work, but note there are still some problems - i.e. https://github.com/mbostock/d3/issues/1471
 
+
+
+Headless Java FX 2.2
+====================
+Since I was not able to solve the axis issue I tried an other way using JavaFX webengine in a complete headless environment. The only uncool thing is that I had to hack the javafx.Application source (then removed the original one from the jar) and you need to have Xfvb installed.
+
+
 Cheers 
 KIC
 

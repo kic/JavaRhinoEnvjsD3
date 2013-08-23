@@ -32,6 +32,7 @@ public class Renderer {
         // load missing functions 
         loadScript("js/missingfunctions.js");
         
+        /*
         // load envjs core
         loadScript("js/envjs/dist12/core.js");
         loadScript("js/envjs/dist12/rhino.js");
@@ -49,7 +50,24 @@ public class Renderer {
         
         // load css selector fix
         loadScript("js/envjs/dist12/sizzle.js");
+        */
         
+        loadScript("js/jsdom/loose.js");
+        loadScript("js/jsdom/snapshot.js");
+        /*src/snapshot.js \
+	src/globals.js \
+	src/utils.js \
+	src/wrapmap.js \
+	src/xmlnames.js \
+	src/idl.js \
+	src/domcore.js \
+	src/events.js \
+	src/htmlelts.js \
+	src/windowobjs.js \
+	src/AttrArrayProxy.js \
+	src/NodeListProxy.js \
+	src/HTMLCollectionProxy.js \
+	src/DOMException.js \*/
         // load d3
         //loadScript("js/d3/d3.v3.min.js"); // better to load
         loadScript("js/d3/d3.v3.js"); // better to debug
